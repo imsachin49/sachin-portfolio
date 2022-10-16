@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- navigation bar -->
+
+  <div class="topnav" id="myTopnav">
+    <a href="#home" class="active">Home</a>
+    <a href="#about">About</a>
+    <a href="#skill">Skills</a>
+    <a href="#edu">Education</a>
+    <a href="#work">Work</a>
+    <a href="#exp">Experience</a>
+    <a href="#contact">Contact</a>
+    <a href="resume.txt" download id="resume"><span>Resume</span></a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a>
+  </div>
+
+
+  <!-- front-Page -->
+  <!-- <input type="button" onClick="document.getElementById('middle').scrollIntoView();" /> -->
+
+
+  <div class="mid">
+    <div id="intro">Hi There,<br><p id="n"><span id="i">I'm </span>Sachin Kumar</p>I Am Into <span id="p"> WebDevelopment</span><br>
+      <button id="me"><a href="#about">About me &nbsp;<img src="https://cdn-icons-png.flaticon.com/512/159/159694.png" height="20px"></a></button>
+      <div class="social"><br>
+        <li><a href="https://www.instagram.com/imsachin49/"><img src="/social/instagram (3).png" height="50px"></a></li>
+        <li><a href="https://github.com/imsachin49"><img src="/social/github (1).png" height="50px"></a></li>
+        <li><a href="https://www.linkedin.com/in/sachin-kumar-1st-203991224/"><img src="/social/linkedin (2).png" height="50px"></a></li>
+        <li><a href="#"><img src="/social/facebook.png" height="50px"></a></li>
+        <li><a href="#"><img src="/social/telegram.png" height="50px"></a></li>
+        <li><a href="#"><img src="/social/twitter (1).png" height="50px"></a></li>
+      </div>
+    </div>
+    <div id="photo">
+      <img src="/images/sachin22.jpg" height="330px" width="330px">
+    </div>
+  </div>
+
+<!-- <hr> -->
+
+
+
+  <!-- About Me -->
+  <div id="about">
+    <div class="myphoto">
+      <img src="/images/mai4-removebg-preview.png" height="300px">
+    </div>
+    <div class="text">
+    <h1>🙋‍♂️🙋‍♂️About Me</h1>
+    <h4>I'm a front End Web Developer and competitive programmer from Bihar,India.<br>
+        I enjoy taking complex problems and turning them into simple problems. <br>
+        I also love the structure & logic of coding and always strive to write <br>
+        elegant and efficient code wheather it be html,css,javascript,c++ or python. <br><br><br>
+        When I'm not coding or studying, you'll find me on the cricket field or <br>
+        spending some quality time on a trip.     
+    </h4>
+  </div>
+  </div>
+
+
+  <!-- Skills section -->
+
+  <div id="skill">
+    <div class="myphoto">
+      <img src="/images/images-removebg-preview (1).png" height="297px">
+    </div>
+    <div class="text">
+      <h1>🏹🏹My Skills</h1>
+      <h2><input type="range" min="1" max="100" value="80" id="one">
+          <label for="one">C++/Python</label></h2>
+      <h2><input type="range" min="1" max="100" value="90" id="one">
+          <label for="one">Html/Css/Js</label></h2>
+      <h2><input type="range" min="1" max="100" value="70" id="one">
+          <label for="one">" Backend "</label></h2>
+      <h2><input type="range" min="1" max="100" value="30" id="one">
+          <label for="one">" React.Js "</label></h2>
+    </div>
+  </div>
+
+  <!-- Education Section class is given same -->
+
+  <div id="edu">
+    <div class="myphoto">
+      <img src="/images/edu-removebg-preview.png" height="297px">
+    </div>
+    <div class="text">
+      <h1>⚡⚡Education</h1>
+      <h2>2021-2025 ➣ IIIT-RANCHI </h2>
+      <h2>2018-2020 ➣ DAV CPS,SIWAN</h2>
+      <h2>2013-2018 ➣ IQRA PUB,SIWAN</h2>
+      <h2>2008-2013 ➣ MAHAVIRI,SIWAN</h2>
+    </div>
+  </div>
+
+
+  <!-- work And experiences are disabled you can not select them -->
+
+  <div id="work">
+        <p id="more" onclick="getmore()"><h1>Work&nbsp;</h1><img src="https://cdn-icons-png.flaticon.com/128/1665/1665586.png" height="21px"></p>
+      </div>
+
+  <div id="exp">
+      <p id="more" onclick="getmore()"><h1>Experience&nbsp;</h1><img src="https://cdn-icons-png.flaticon.com/128/1665/1665586.png" height="21px"></p>
+    </div>
+
+
+  <!--Contact -->
+  
+  <div id="contact">
+    <h1>Get In Touch</h1>
+    <form action="/action_page.php" id="usrform">
+
+      <label for="fname">Full name*</label><br>
+      <input type="text" name="fname" class="com"><br><br>
+      
+      <label for="Email">Email*</label><br>
+      <input type="email" name="Email" class="com"><br><br>
+
+      <label for="comment">Message*</label><br>
+      <textarea rows="4" cols="40" name="comment" class="com1"></textarea><br><br>
+      
+      <input type="submit" id="sub">
+
+    </form>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <p>Copyright © 2022 SachinKumar. All Rights reserved</p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
